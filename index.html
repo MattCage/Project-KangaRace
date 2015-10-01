@@ -28,19 +28,65 @@
         <!-- Bootstrap CSS -->
     	<link rel="stylesheet" href="css/bootstrap.css">
         
+        <!-- Custom CSS -->
+    	<link rel="stylesheet" href="css/main.css">
+        
         <!-- Respond.js, mandatory after all CSS -->
         <script src="js/respond.min.js"></script>
   </head>
   
   <body>
   
-    <h1>Hello, world!</h1>
+    <div id="field">
+    
+    	<div id="k1">
+        	<img id="kImg1" src="img/kangaimg3.png" />
+        </div>
+        
+        <hr />
+        
+        <div id="k2">
+        	<img id="kImg2" src="img/kangaimg3.png" />
+        </div>
+        
+        <hr />
+        
+        <div id="k3">
+        	<img id="kImg3" src="img/kangaimg3.png" />
+        </div>
+        
+        <hr />
+        
+        <div id="k4">
+        	<img id="kImg4" src="img/kangaimg3.png" />
+        </div>
+        
+        <hr />
+    
+    </div>
+    
+    <form id="bet-form">
+    
+    	<p id="quote1"></p> <input type="text" name="kanga1bet" onchange="checkBet( 1 );" /> <br />
+        <p id="quote2"></p> <input type="text" name="kanga2bet" onchange="checkBet( 2 );" /> <br />
+        <p id="quote3"></p> <input type="text" name="kanga3bet" onchange="checkBet( 3 );" /> <br />
+        <p id="quote4"></p> <input type="text" name="kanga4bet" onchange="checkBet( 4 );" /> <br />
+    
+    	<input type="button" name="kanga4bet" onclick="startRace();" value="Start Race!" /> <br />
+    
+    </form>
+    
+    <hr />
+    
+    <div id="score"></div>
 
     <!-- jQuery first,then REM Polyfill then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/rem.min.js" type="text/javascript"></script>
     <script src="js/iemobile10-devicewidth-fix.js" type="text/javascript"></script>
     <script src="js/bootstrap.js"></script>
+    <!-- Logica del gioco -->
+    <script src="js/main.js"></script>
   </body>
   
 </html>

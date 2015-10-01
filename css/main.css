@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/*
+ * Nome: KangaRace Style & UI
+ *
+ * Colori:
+ * Fonts: 
+ */
+
+/*** STILE GENERALE ***/
+/*** LAYOUT ***/
+body {
+
+}
+
+header, main, footer {
+	
+}
+
+/* Header */
+header {
+	
+}
+
+/* Main */
+main {
+
+}
+
+div#field {
+	
+	width: 768px;
+	background-color: #e8e8e8;
+	display: none;
+	
+}
+
+div#k1, div#k2, div#k3, div#k4 {
+	
+	width: 32px;
+	position: relative;
+	left: 0px;
+	
+}
+
+div#score {
+	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+/* Footer */
+footer {
+
+}
+
+/*** TYPOGRAPHY ***/
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+h1 {
+	
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+address {
+	
+}
+
+figure {
+	
+}
+
+time {
+	
+}
+
+strong, b {
+}
+
+em, i {
+}
+
+cite, q {
+}
+
+blockquote {
+	
+}
+
+mark {
+	
+}
+
+ins, u {
+}
+
+del {
+}
+
+code {
+	
+}
+
+small {
+}
+
+/*** LISTS ***/
+ul {
+
+}
+
+ul li {
+
+}
+
+/*** LINKS ***/
+a:link, a:visited {
+
+}
+
+a:active {
+
+}
+
+a:hover {
+
+}
+
+/*** INPUTS & FORMS ***/
+label {
+
+}
+
+input, textarea {
+}
+
+input {
+
+}
+
+textarea {
+}
+
+input:focus, textarea:focus {
+
+}
+
+input[type="submit"] {
+
+}
+
+input[type="submit"]:hover {
+
+}
+
+input[type="submit"]:active {
+
+}
+
+/*** IMAGES ***/
+
+
+/*********************/
+
+/*** MEDIA QUERIES ***/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	
+	
+}
